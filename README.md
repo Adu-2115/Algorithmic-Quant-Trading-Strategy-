@@ -12,6 +12,17 @@ Features
 - Evaluates Sharpe Ratio, Max Drawdown, and other key metrics
 - Provides visualizations of cumulative returns and volatility
 
+Technical Indicators Used
+
+This strategy extracts and uses the following technical indicators for signal generation and portfolio decision-making:
+
+- **Garman-Klass Volatility** – more accurate volatility estimator than simple close-to-close returns
+- **RSI (Relative Strength Index)** – measures momentum and potential overbought/oversold conditions
+- **Bollinger Bands (BBANDS)** – identifies volatility and price levels relative to recent averages
+- **ATR (Average True Range)** – captures market volatility
+- **MACD (Moving Average Convergence Divergence)** – trend-following momentum indicator
+- **Volume** – used as a filter and confirmation signal
+
 Includes data preprocessing, strategy logic, performance evaluation, and visualizations.
 
 ![image](https://github.com/user-attachments/assets/712f6ce0-3209-4573-a399-bd706a7de364)
